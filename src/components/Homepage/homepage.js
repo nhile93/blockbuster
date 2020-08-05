@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MoviesTrending from './moviestrending'
 
 class Homepage extends Component {
   constructor(props) {
@@ -132,6 +133,8 @@ class Homepage extends Component {
           </div>
         </div>
 
+        <MoviesTrending/>
+        
         <div className="latestnew">
           <div className="container">
             <div className="row ipad-width">
