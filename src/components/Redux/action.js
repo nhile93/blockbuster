@@ -7,8 +7,10 @@ export function fetchMoviesTrending(){
   return function(dispatch){
     let url = "https://api.trakt.tv/movies/popular"
     let headers = {
+      'Content-Type': 'application/json',
       'trakt-api-version': 2,
-      'Access-Control-Allow-Origin': '*'
+      'trakt-api-key': '23b3672db47632c182337e01d880149387b8c1719adaffe2dfffa1c07860b628',
+      'Access-Control-Allow-Origin': 'http://localhost:3000/'
     }
     axios.get(url, headers)
     .then(res => {

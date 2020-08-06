@@ -8,7 +8,7 @@ class Homepage extends Component {
   }
   render() {
     return (
-      <div classNameName="homepage">
+      <div className="homepage">
         <div className="slider movie-items">
           <div className="container">
             <div className="row">
