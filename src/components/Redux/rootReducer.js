@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux'
 import moviesTrendingStore from './movieReducer'
 
-const movieTrending = combineReducers({moviesTrendingStore})
+const movieTrendingReducer = combineReducers({moviesTrendingStore})
 
-export default movieTrending
+export default movieTrendingReducer

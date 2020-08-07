@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MoviesTrending from './moviestrending'
+import Trending from '../Trending/trending'
 
 class Homepage extends Component {
   constructor(props) {
@@ -134,7 +135,8 @@ class Homepage extends Component {
         </div>
 
         <MoviesTrending/>
-        
+        <Trending/>
+
         <div className="latestnew">
           <div className="container">
             <div className="row ipad-width">

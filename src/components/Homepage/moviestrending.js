@@ -20,7 +20,7 @@ class MoviesTrending extends Component {
     return (
       <ul>
         {this.props.moviesTrendingItems.map((item) =>
-          <li>{item.title}</li>
+          <li>{item.movie.title}</li>
         )}
       </ul>
     );
