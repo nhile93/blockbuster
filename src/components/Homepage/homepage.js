@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import MoviesTrending from './moviestrending'
 import Trending from '../Trending/trending'
+=======
+>>>>>>> parent of a78399a... today
 
 class Homepage extends Component {
   constructor(props) {
@@ -134,9 +137,12 @@ class Homepage extends Component {
           </div>
         </div>
 
+<<<<<<< HEAD
         <MoviesTrending/>
         <Trending/>
 
+=======
+>>>>>>> parent of a78399a... today
         <div className="latestnew">
           <div className="container">
             <div className="row ipad-width">
